@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+* { margin: 0px;
+	padding: 0px;
+	border: 0px;
+	
+}
+
+body{
+    background-image: url("img/borde.jpg");
+	background-repeat: repeat-x;
+	
+	background-color: rgba(65,49,39,1.00);
+	padding-top: 27px;
+}
+
+
+
+hr{
+    border: 5px outset rgba(25,7,7,1.00);
+}
+
+
+
+#pie{	/*DISEÑO*/
+    	background-color: rgba(69,229,13,1.00);
+   	    /*TEXTO*/
+		color: rgba(240,238,238,1.00);
+	 	text-align: center;
+}
+
+
+#contenedor{
+    background-color:rgba(255,209,89,1.00);
+	width: 1000px;
+	height: auto;
+	margin:auto;
+	
+}
+
+
+img {
+    /*DISEÑO*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	
+	/*BORDER*/
+      border-image: url("img/teclados.jpg");
+}
+
+
+
+h1, h2, h3, h5, h6 {
+	
+	/*TEXTO*/
+    text-align: center;
+    font-size: 24px; 
+	text-decoration:underline;
+
+	/*DISEÑO*/
+	margin-bottom: 30px;
+	margin-top: 20px;
+	
+	
+}
+
+
+
+
+/*Este espacio de aca en adelante va a estar dirigido a el CSS de las listas ordenadas y desordenadas*/
+
+
+
+ul  { /*DISEÑO*/
+	    margin-left: 30px;
+	    margin-bottom: 30px;
+	
+		margin-left: 30px;
+	    margin-right: 40px;
+	
+	/*TEXTO*/
+     list-style-image: url("img/gif-servicios.gif")
+}
+
+
+ul li {  
+		 margin-left: 35px;
+		
+}
+
+
+
+
+
+ol {  margin-bottom: 20px;
+	  margin-left: 30px;
+	  margin-right: 20px;
+	
+	text-align: right;
+	text-align: justify;
+	list-style-image: url("img/gif-articulos.gif");
+
+
+}
+
+
+ol li { margin-left: 25px;
+
+
+}
+
+
+p {
+    color: rgba(23,6,2,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 600;
+    font-size: large;
+    text-align: justify;
+	
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+a {margin-left: 25px; }
+
+h4 { 
+	margin-left: 25px;
+	padding-bottom: 20px;
+	
+	
+}
